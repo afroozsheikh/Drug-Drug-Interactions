@@ -30,7 +30,7 @@ I use GCN to extract features and then I use MLP with the following architecture
 
 ## Results
 * Result of GNN
-  ![Image](/img/gnn1.jpg "Train and Validation Hits Scores")
+  ![Image](/img/gnn1.png "Train and Validation Hits Scores")
   
 * Result of Node2Vec
-  ![Image](/img/node2vec.jpg "Train and Validation Hits Scores")
+  ![Image](/img/node2vec.png "Train and Validation Hits Scores")
