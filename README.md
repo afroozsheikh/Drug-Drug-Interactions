@@ -23,8 +23,14 @@ For evaluation, the model is supposed to rank true drug interactions higher than
 node2vec is an algorithm for learning features and representations of a given graph. For any given graph it can learn representations of its nodes which can be used in several tasks. Such as node classification, link prediction and graph level classification. Node2Vec uses flexible, biased random walks that can trade off between local and global structures of a network. In this way it can generate features. Firstly I generate embeddings using Node2Vec. Then I train a MLP using extracted embeddings.
 
 ### GNN
-I use GCN to extract features and then I use MLP with the following architecture. Refer to [CS224W](https://www.youtube.com/watch?v=RU9uTa_-ZOw&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn&index=20) for more information on Graph Neural Networks.
+I use GCN to extract features and then I use MLP with the following architecture. Refer to [CS224W](https://www.youtube.com/watch?v=RU9uTa_-ZOw&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn&index=20) for more information on Graph Neural Networks. 
+ 
 ![Image](/img/3.jpg)
 
 
 ## Results
+* Result of GNN
+  ![Image](/img/gnn1.jpg "Train and Validation Hits Scores")
+  
+* Result of Node2Vec
+  ![Image](/img/node2vec.jpg "Train and Validation Hits Scores")
